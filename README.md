@@ -18,3 +18,6 @@ Escolha o projeto ..\Clarify.Climate\Clarify.Climate.Web como o projeto de start
 #Rodar projeto
 Executar o projeto
 ```
+
+## Screen shots
+![tela úncia de apresentação das temperaturas](https://github.com/fabiovivas/Clarify.Climate/blob/master/screen.png)
