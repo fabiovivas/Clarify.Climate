@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-UI", "1-UI", "{3F71C8DC-4491-4FD5-A6EA-0340B1266B08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Business", "2-Business", "{2CF103A5-3482-47AE-9BFE-FE84DA94D306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Service", "3-Service", "{71C741E3-E4EC-406D-A275-C0B4AEEEFF84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infra", "5-Infra", "{14E0883F-5DBD-4B1C-8FAC-4B7AF5D5D576}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Domain", "4-Domain", "{F77AF461-E3E5-41A1-81E4-02738988C601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clarify.Climate.Web", "Clarify.Climate.Web\Clarify.Climate.Web.csproj", "{6BE36B0E-E329-41DD-9B27-19540D465EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clarify.Climate.Repository", "Clarify.Climate.Repository\Clarify.Climate.Repository.csproj", "{DBD6D9AA-6B63-4C4C-815B-509A71E78E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clarify.Climate.Domain", "Clarify.Climate.Domain\Clarify.Climate.Domain.csproj", "{1A8E05EE-A67F-4DA0-A5E7-D6042B1B74D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clarify.Climate.Business", "Clarify.Climate.Business\Clarify.Climate.Business.csproj", "{A4EE204C-2CE4-48B1-9BE6-323AC0528502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BE36B0E-E329-41DD-9B27-19540D465EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE36B0E-E329-41DD-9B27-19540D465EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE36B0E-E329-41DD-9B27-19540D465EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE36B0E-E329-41DD-9B27-19540D465EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD6D9AA-6B63-4C4C-815B-509A71E78E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD6D9AA-6B63-4C4C-815B-509A71E78E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD6D9AA-6B63-4C4C-815B-509A71E78E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD6D9AA-6B63-4C4C-815B-509A71E78E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8E05EE-A67F-4DA0-A5E7-D6042B1B74D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8E05EE-A67F-4DA0-A5E7-D6042B1B74D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8E05EE-A67F-4DA0-A5E7-D6042B1B74D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8E05EE-A67F-4DA0-A5E7-D6042B1B74D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4EE204C-2CE4-48B1-9BE6-323AC0528502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EE204C-2CE4-48B1-9BE6-323AC0528502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EE204C-2CE4-48B1-9BE6-323AC0528502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EE204C-2CE4-48B1-9BE6-323AC0528502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BE36B0E-E329-41DD-9B27-19540D465EAA} = {3F71C8DC-4491-4FD5-A6EA-0340B1266B08}
+		{DBD6D9AA-6B63-4C4C-815B-509A71E78E4A} = {14E0883F-5DBD-4B1C-8FAC-4B7AF5D5D576}
+		{1A8E05EE-A67F-4DA0-A5E7-D6042B1B74D1} = {F77AF461-E3E5-41A1-81E4-02738988C601}
+		{A4EE204C-2CE4-48B1-9BE6-323AC0528502} = {2CF103A5-3482-47AE-9BFE-FE84DA94D306}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6760FDF3-8390-4CA4-A454-F660D349E32F}
+	EndGlobalSection
+EndGlobal
