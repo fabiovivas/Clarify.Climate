@@ -1,8 +1,11 @@
 ## Clarify.Climate
 
+Instruções para rodar o projeto
+
 ```bash
 # Rodar script para geração de tabelas e registros
 executar o script database-generate.sql
+Dependendo do momento que rodar o script as datas estejam defasadas. Caso seja esse o caso ajuste o script para datas recentes
 
 # Ajustar connection string
 Ajustar connection string nos arquivos
